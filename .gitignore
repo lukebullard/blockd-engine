@@ -1,0 +1,12 @@
+#Compiled Exes
+*.exe
+
+#Intermediate Files
+*.s
+*.o
+
+#BlitzMax Backup Files
+*.bmx.bak
+
+#7-Zip Archive Files (releases are made in .tar.gz)
+*.7z

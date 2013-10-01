@@ -1,0 +1,6 @@
+@echo off
+echo Building ReadDump...
+bmk makeapp -a -r -t gui -o BlockdReadDump.exe BD_ReadDump.bmx
+echo Deleting Intermediate Directory...
+del /F /S /Q .bmx
+rmdir .bmx
