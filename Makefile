@@ -1,0 +1,12 @@
+TYPE=all
+SUBDIRECTORIES=tests
+clean:TYPE=clean
+all:TYPE=all
+.PHONY: $(SUBDIRECTORIES)
+	
+clean: $(SUBDIRECTORIES)
+	
+all: $(SUBDIRECTORIES)
+	
+$(SUBDIRECTORIES):
+	$(MAKE) -C $@ $(TYPE)

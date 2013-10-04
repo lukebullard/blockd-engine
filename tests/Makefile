@@ -1,0 +1,12 @@
+TYPE=all
+SUBDIRECTORIES=Tools/BD_ReadDump
+clean:TYPE=clean
+all:TYPE=all
+.PHONY: $(SUBDIRECTORIES)
+	
+clean: $(SUBDIRECTORIES)
+	
+all: $(SUBDIRECTORIES)
+	
+$(SUBDIRECTORIES):
+	$(MAKE) -C $@ $(TYPE)

@@ -8,4 +8,4 @@ Import jimon.raknet
 Import "../../../_CommonInterface/BD_Event.bmx"
 Import "../../../_CommonInterface/BD_DebugDump.bmx"
 
-Import "../../../TestFramework.bmx"
+'Import "../../../TestFramework.bmx"

@@ -6,4 +6,3 @@ Rem
 End Rem
 SuperStrict
 Import flow.Main
-Import "../TestFramework.bmx"
