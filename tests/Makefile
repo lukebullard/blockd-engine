@@ -1,7 +1,7 @@
 TYPE=all
 SUBDIRECTORIES=Tools/BD_ReadDump
-clean:TYPE=clean
 all:TYPE=all
+clean:TYPE=clean
 .PHONY: $(SUBDIRECTORIES)
 	
 clean: $(SUBDIRECTORIES)

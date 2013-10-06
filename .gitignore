@@ -4,6 +4,7 @@
 #Intermediate Files
 *.s
 *.o
+*.i
 
 #BlitzMax Backup Files
 *.bmx.bak
